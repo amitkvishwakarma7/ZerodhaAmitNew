@@ -1,0 +1,24 @@
+package basic;
+
+public class Demo {
+		
+	public static void main(String[] args) {
+		
+		String str = "This is java program";
+		
+		String [] ar = str.split(" ");
+
+		System.out.print("Even palce word is : ");
+		for (int i = 0;i<ar.length; i=i+2){
+
+		System.out.print(" "+ar[i]);
+		}System.out.println();
+		System.out.print("Odd palce word is : ");
+		for (int i = 1;i<ar.length; i=i+2){
+
+		System.out.print(" "+ar[i]);
+		}
+
+	}
+
+}
